@@ -13,7 +13,11 @@ from bs4 import BeautifulSoup
 
 import Client
 import traceback
-from config import*
+
+from bot.config import (
+    MOODLE_URL, USUARIO, MOODLE_PASSWORD, OWNER,
+    API_HASH, API_ID, BOT_TOKEN, 
+    ZIP_MB, PASS_MEGA, GMAIL_MEGA, USUARIO_ID) 
 
 
 links =[]
